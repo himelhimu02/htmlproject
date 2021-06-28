@@ -1,0 +1,59 @@
+/*header start*/
+
+
+header { 
+ }
+.container {
+    width: 90%;
+    border: 2px solid black;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+.logo {
+    width: 10%;
+    border: 1px solid rgb(172, 255, 17);
+    float: left;
+  
+}
+.logo a{
+}
+.logo a img{
+    width: 100%;
+ 
+   
+}
+
+
+.menu {
+    width: 40%;
+    border:1px solid red;
+    float: right;
+    display: inline;
+}
+.menu ul{
+    list-style: none;
+    overflow: hidden;
+    float: right;
+    font-size: 15px;
+    .menu ul li:last-child(){
+        float: left;
+    }
+    .menu ul li: last-child a{
+        margin-right:0;
+
+    }
+    
+}
+.menu ul li{
+    float:left;
+    
+   
+}
+.menu ul li a{
+    margin:10px;
+    display: inline;
+    text-decoration: none;
+    
+}
+/*header start*/
